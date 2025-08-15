@@ -1,7 +1,7 @@
 import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js";
 
-const frontend_url = "https://food-del-web-app-frontend.onrender.com/";
+const frontend_url = 'https://food-del-web-app-frontend.onrender.com/';
 const placeOrder = async (req, res) => {
   try {
     const newOrder = new orderModel({
