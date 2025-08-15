@@ -33,7 +33,7 @@ const Orders = ({url}) => {
 
   useEffect(()=>{
     fetchAllOrders();
-  })
+  },[])
 
   return (
     <div className='order add'>
